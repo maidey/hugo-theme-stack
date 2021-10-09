@@ -1,4 +1,6 @@
 <meta charset='utf-8'>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1432808943308399"
+     crossorigin="anonymous"></script>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 
 {{- $description := partialCached "data/description" . .RelPermalink -}}
@@ -28,5 +30,4 @@
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
 <link rel="alternate" type="application/rss+xml" href="https://maidey.github.io/index.xml" title="hack's">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1432808943308399"
-     crossorigin="anonymous"></script>
+
